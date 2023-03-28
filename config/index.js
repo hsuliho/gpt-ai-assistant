@@ -13,7 +13,7 @@ const config = Object.freeze({
   APP_PORT: env.APP_PORT || null,
   APP_LANG: env.APP_LANG || 'zh',
   APP_WEBHOOK_PATH: env.APP_WEBHOOK_PATH || '/webhook',
-  APP_API_TIMEOUT: env.APP_API_TIMEOUT || 60000,
+  APP_API_TIMEOUT: env.APP_API_TIMEOUT || 30000,
   APP_MAX_GROUPS: Number(env.APP_MAX_GROUPS) || 5,
   APP_MAX_USERS: Number(env.APP_MAX_USERS) || 100,
   APP_MAX_PROMPT_MESSAGES: Number(env.APP_MAX_PROMPT_MESSAGES) || 12,
